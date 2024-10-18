@@ -1,0 +1,29 @@
+@media (min-width:991px) {
+    .sticky-sidebar {
+        position: sticky;
+        top: 130px;
+    }
+}
+.widget {
+    margin-bottom: 35px;
+
+    .widget-title {
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #000;
+        text-decoration-color: #999;
+    }
+    .widget-list-inline {
+        margin-left: 3px;
+            li {
+                a {
+                    padding: 5px 10px;
+                    border-radius: 8px;
+                }
+                margin-bottom: 12px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+    }
+}
