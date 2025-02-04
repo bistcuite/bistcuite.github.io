@@ -52,13 +52,13 @@ const about = () => {
                 About Me
               </h2>
               <p className="font-medium">
-              Hi, I'm Hasan, a Backend Developer and AI enthusiast with a knack for building robust, scalable systems and intelligent solutions. My expertise lies in backend development, where I work with technologies like Python, Node.js, and databases to create efficient and reliable applications. I also have hands-on experience in frontend development, using tools like React and Next.js to bring user interfaces to life.
+              Hi, I&apos;m Hasan, a Backend Developer and AI enthusiast with a knack for building robust, scalable systems and intelligent solutions. My expertise lies in backend development, where I work with technologies like Python, Node.js, and databases to create efficient and reliable applications. I also have hands-on experience in frontend development, using tools like React and Next.js to bring user interfaces to life.
               </p>
               <p className="my-4 font-medium">
-              What truly drives me is artificial intelligence. I'm passionate about exploring machine learning models, natural language processing, and other AI-driven technologies to solve real-world problems. Whether it's developing smart algorithms or integrating AI into web applications, I love pushing the boundaries of what's possible with code.
+              What truly drives me is artificial intelligence. I&apos;m passionate about exploring machine learning models, natural language processing, and other AI-driven technologies to solve real-world problems. Whether it&apos;s developing smart algorithms or integrating AI into web applications, I love pushing the boundaries of what&apos;s possible with code.
               </p>
               <p className="font-medium">
-              When I'm not immersed in code, you can find me diving into the latest AI research, contributing to open-source projects, or working on side projects that combine my love for backend development and AI. Let's connect and create something innovative together!
+              When I&apos;m not immersed in code, you can find me diving into the latest AI research, contributing to open-source projects, or working on side projects that combine my love for backend development and AI. Let&apos;s connect and create something innovative together!
               </p>
             </div>
 

@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hasan's Portfolio</title>
-        <meta name="description" content="Hasan's Portfolio" />
+        <title>Hasan&apos;s Portfolio</title>
+        <meta name="description" content="Hasan&apos;s Portfolio" />
       </Head>
       <TransitionEffect />
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
@@ -24,11 +24,11 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Hi! I'm Hasan!"
+                text="Hi! I&apos;m Hasan!"
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl sm:pt-2"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-              I'm a Backend Developer and AI enthusiast passionate about building intelligent, scalable systems. With expertise in Python, Node.js, and modern web technologies, I specialize in creating efficient backend solutions and integrating AI-driven features into applications. I also enjoy working on the frontend to bring seamless user experiences to life. Whether it's developing machine learning models or crafting robust APIs, I thrive on solving complex problems and pushing the boundaries of innovation. Let's build something amazing together!
+              I&apos;m a Backend Developer and AI enthusiast passionate about building intelligent, scalable systems. With expertise in Python, Node.js, and modern web technologies, I specialize in creating efficient backend solutions and integrating AI-driven features into applications. I also enjoy working on the frontend to bring seamless user experiences to life. Whether it&apos;s developing machine learning models or crafting robust APIs, I thrive on solving complex problems and pushing the boundaries of innovation. Let&apos;s build something amazing together!
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
