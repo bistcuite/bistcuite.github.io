@@ -106,7 +106,7 @@ const Experience = () => {
             company="Webinna.ir"
             companyLink= 'https://webinaa.ir'
             time="Dec 2023 - Nov 2024"
-            address="Colorado Springs, CO"
+            address="Qom, Iran"
             work={workWebinna}
           />
           <Details
