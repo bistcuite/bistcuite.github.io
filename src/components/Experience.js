@@ -18,12 +18,13 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {position}&nbsp;
+          <span>at&nbsp;</span> 
           <a
             href={companyLink}
             target="_blank"
             className="text-primary capitalize"
           >
-            @{company}
+            {company}
           </a>
         </h3>
         <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
@@ -43,6 +44,15 @@ const Experience = () => {
     target: ref,
     offset: ["start end", "center start"],
   });
+
+  const workQomUniv = [
+    'Assisted students in understanding fundamental programming concepts.',
+    'Conducted lab sessions and guided students in writing efficient code.',
+    'Provided debugging support and helped troubleshoot programming errors.',
+    'Reviewed and graded assignments, offering constructive feedback.',
+    'Prepared supplementary materials to clarify complex topics.',
+    'Collaborated with the instructor to improve course content and delivery.'
+  ];
 
   const workWebinna = [
     'Co-founded a freelance company specializing in WordPress development and custom scripting for clients.',
@@ -101,11 +111,19 @@ const Experience = () => {
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
+        <Details
+            position="Programming Course Teacher Assistant"
+            company="Department of Physics, Qom University"
+            companyLink= 'https://physics.qom.ac.ir'
+            time="Dec 2023 - Nov 2024"
+            address="Qom University"
+            work={workQomUniv}
+          />
           <Details
             position="Co-Founder"
             company="Webinna.ir"
             companyLink= 'https://webinaa.ir'
-            time="Dec 2023 - Nov 2024"
+            time="Feb 2025 - Present"
             address="Qom, Iran"
             work={workWebinna}
           />
