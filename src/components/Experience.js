@@ -115,7 +115,7 @@ const Experience = () => {
             position="Programming Course Teacher Assistant"
             company="Department of Physics, Qom University"
             companyLink= 'https://physics.qom.ac.ir'
-            time="Dec 2023 - Nov 2024"
+            time="Dec 2023 - Present"
             address="Qom University"
             work={workQomUniv}
           />
@@ -123,7 +123,7 @@ const Experience = () => {
             position="Co-Founder"
             company="Webinna.ir"
             companyLink= 'https://webinaa.ir'
-            time="Feb 2025 - Present"
+            time="Nov 2023 - Sep 2024"
             address="Qom, Iran"
             work={workWebinna}
           />
